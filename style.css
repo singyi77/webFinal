@@ -1,0 +1,198 @@
+
+a{
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.title img{
+    width: 128px;
+    height: 38px;
+}
+.titleOption{
+    display: flex;
+}
+.titleOption ul{
+    display: flex;
+    padding-left: 32px;
+    align-items: center;
+}
+.titleOption li{
+    display: flex;
+    align-items: center;
+}
+.titleOption h1{
+    width: 74px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    opacity: 1;
+}
+.titleOption img{
+    width: 18px;
+    height: 16px;
+    background: #8D8D8D;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background: #916000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start
+}
+
+.header h1{
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header li{
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+}
+.content{
+    display: flex;
+    justify-content: center
+
+}
+.contentImg{
+    flex-direction: column;
+    display: flex;
+    height: 1760px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.contentImg img{
+    width: 730px;
+    height: 460px;
+}
+.img4two{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img4two img{
+    width: 350px;
+    height: 640px;
+}
+.product{
+    margin-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    width: 350px;
+}
+.product h1{
+    text-align: left;
+    font: normal normal bold 32px/48px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.product h2{
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.product h4{
+    text-align: left;
+    font: normal normal 300 20px/30px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.num{
+    display: flex;
+    align-items: center;
+}
+.number{
+    top: 400px;
+    left: 1165px;
+    width: 160px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #916000;
+    border-radius: 4px 0px 0px 4px;
+    opacity: 1;
+    display: flex;
+}
+.num button{
+    width: 190px;
+    height: 50px;
+    background: #916000 0% 0% no-repeat padding-box;
+    border: 2px solid #916000;
+    border-radius: 0px 4px 4px 0px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/22px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.num button:hover{
+    background: #362401 0% 0% no-repeat padding-box;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background: #916000 0% 0% no-repeat padding-box;;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 128px;
+    height: 38px;
+    margin-right: 20px;
+}
+.logo h1{
+    text-align: left;
+    font: normal normal medium 14px/21px SF Pro Text;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+}
+.footer li{
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+}
+.footer h1{
+    text-align: left;
+    font: normal normal normal 20px/30px SF Pro Text;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+@media(max-width: 375px){
+    .img4two{
+        display: flex;
+        flex-direction: column;
+        width: 345px;
+        
+    }
+}
